@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name          = 'RSKInteractableLabel'
-  s.version       = '1.0.0'
-  s.summary       = 'A UILabel subclass that represents an object that describes the interactable label.'
+  s.version       = '1.1.0'
+  s.summary       = 'The type of object that represents an interactable label.'
   s.description   = <<-DESC
-                   A UILabel subclass that represents an object that describes the interactable label. RSKInteractableLabel provides the ability to get the index of the character falling under the given point, expressed in the label's coordinate system.
+                   The type of object that represents an interactable label. RSKInteractableLabel provides the ability to get the index of the character falling under the given point, expressed in the label's coordinate system.
                    DESC
   s.homepage      = 'https://github.com/rsk-lab/RSKInteractableLabel'
   s.license       = { :type => 'RPL-1.5 / R.SK Lab Professional', :file => 'COPYRIGHT.md' }

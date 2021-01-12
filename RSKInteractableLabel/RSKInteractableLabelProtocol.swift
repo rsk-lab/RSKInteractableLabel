@@ -16,12 +16,8 @@
 
 import UIKit
 
-/// The protocol to be adopted by a type that represents an object that describes the interactable label.
-public protocol RSKInteractableLabelProtocol {}
-
-public extension RSKInteractableLabelProtocol where Self: UILabel {
-    
-    // MARK: - Public Functions
+/// The protocol to be adopted by a type of object that represents an interactable label.
+public protocol RSKInteractableLabelProtocol {
     
     ///
     /// Returns the index of the character falling under the given point, expressed in the label's coordinate system.
@@ -31,6 +27,13 @@ public extension RSKInteractableLabelProtocol where Self: UILabel {
     ///
     /// - Returns: The index of the character falling under point.
     ///
+    func characterIndex(for point: CGPoint) -> Int?
+}
+
+public extension RSKInteractableLabelProtocol where Self: UILabel {
+    
+    // MARK: - Public Functions
+    
     func characterIndex(for point: CGPoint) -> Int? {
         
         precondition(self.baselineAdjustment == .none, "Only `UIBaselineAdjustment.none` is supported.")

@@ -1,6 +1,6 @@
 ## RSKInteractableLabel [![Swift 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
-A UILabel subclass that represents an object that describes the interactable label. RSKInteractableLabel provides the ability to get the index of the character falling under the given point, expressed in the label's coordinate system.
+The type of object that represents an interactable label. RSKInteractableLabel provides the ability to get the index of the character falling under the given point, expressed in the label's coordinate system.
 
 ## Installation
 
@@ -8,7 +8,7 @@ A UILabel subclass that represents an object that describes the interactable lab
 
 1.  Add the pod `RSKInteractableLabel` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
 
-        pod 'RSKInteractableLabel', '1.0.0'
+        pod 'RSKInteractableLabel', '1.1.0'
 
 2.  Run `pod install` from Terminal, then open your app's `.xcworkspace` file to launch Xcode.
 

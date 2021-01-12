@@ -16,7 +16,7 @@
 
 import UIKit
 
-/// A `UILabel` subclass that represents an object that describes the interactable label.
+/// The type of object that represents an interactable label.
 open class RSKInteractableLabel: UILabel, RSKInteractableLabelProtocol {
     
     // MARK: - Open Properties
